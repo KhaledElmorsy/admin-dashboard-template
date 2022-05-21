@@ -215,11 +215,11 @@ header{
 
 .main-buttons a{
     appearance: none;
-    height: 50px;
-    width: 120px;
+    height: 45px;
+    width: 110px;
     border-radius: 25px;
 
-    font-size:20px;
+    font-size:0.9rem;
     font-weight: 700;
     
     display:grid;
