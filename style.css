@@ -364,4 +364,26 @@ main h3{
 
 .trending{
     grid-area: trending;
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px ;
+}
+
+.trending .card{
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.contact{
+    flex: 1 1 0;
+    display: flex;
+    min-height: 0;
+    align-items: center;
+    gap:15px;   
+}
+
+.trending img{
+    width:40px;
+    clip-path: circle();
 }
