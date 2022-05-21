@@ -394,11 +394,11 @@ main h3{
     align-items: center;
     gap:15px;   
 
-    transition-delay: 100ms;
+    transition-duration: 100ms;
 }
 
 .contact:hover{
-    transform: translateX(2px);
+    transform: translateX(4px);
 }
 
 .trending img{
