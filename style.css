@@ -15,7 +15,7 @@ body {
     width: 100vw;
 
     display: grid;
-    grid-template: 155px 1fr / 250px 1fr;
+    grid-template: 155px calc(100vh - 155px) / 250px 1fr;
     grid-template-areas: "sidebar header"
                          "sidebar main";
 }
@@ -246,6 +246,7 @@ header{
 
 main{
     padding: 30px 40px;
+    box-sizing: border-box;
     background-color: #ececec;
     z-index: 1;
 
@@ -388,7 +389,7 @@ main h3{
 }
 
 .contact{
-    height:4em;
+    height:3em;
 
     display:flex;
     align-items: center;
