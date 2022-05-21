@@ -384,11 +384,17 @@ main h3{
 }
 
 .contact{
-    flex: 1 1 0;
-    display: flex;
-    min-height: 0;
+    height:4em;
+
+    display:flex;
     align-items: center;
     gap:15px;   
+
+    transition-delay: 100ms;
+}
+
+.contact:hover{
+    transform: translateX(2px);
 }
 
 .trending img{
