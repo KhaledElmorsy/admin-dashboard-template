@@ -292,6 +292,14 @@ main h3{
     display: flex;
     flex-direction: column;
     gap: 5px;
+
+    transition-duration: 100ms;
+}
+
+.card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px rgba(17, 17, 17, 0.7);;
+
 }
 
 .card .title{
