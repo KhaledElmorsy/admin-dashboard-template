@@ -78,6 +78,7 @@ header{
     grid-area: header;
 
     display:flex;
+    flex-direction: column;
 }
 
 .upper-head{
@@ -149,6 +150,48 @@ header{
     font-size: 1.2rem;
     font-weight: 600;
     padding: 10px 0;
+}
+
+.lower-head{
+    padding: 0 30px;
+    
+    display:flex;
+    align-items: center;
+}
+
+.account-title{
+    width:450px;
+    flex:1 0 auto;
+
+    display: grid;
+    grid-template: 1fr 1fr / 100px 1fr;
+    grid-template-areas: "pic greeting"
+                   "pic title";
+}
+
+.account-title img{
+    width:70px;
+    clip-path: circle();
+
+    grid-area: pic;
+    justify-self: center;
+}
+
+.account-title .greeting {
+    grid-area: greeting;
+    align-self:end;
+}
+
+.account-title .account{
+    grid-area: title;
+    align-self: start;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.account span{
+    font-weight: 500;
 }
 
 main{
