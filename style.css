@@ -356,6 +356,7 @@ main h3{
 
     font-size: 0.9em;
     align-items: stretch;
+    justify-content: space-evenly;
 }
 
 .announcements .info{
